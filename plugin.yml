@@ -1,0 +1,15 @@
+name: MyProfileUI
+main: AlbaaDev\MyProfileUI\Main
+api: 4.0.0
+version: 0.0.2
+author: AlbaaDev
+
+commands:
+  myprofile:
+    description: "See MyProfile"
+    permission: "mp.use"
+
+permissions:
+  mp.use:
+    description:
+    default: true

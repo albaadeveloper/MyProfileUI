@@ -1,0 +1,21 @@
+# Welcome To Setting Plugin myProfileUI
+
+### TAG DEFAULT ###
+# use § set collors
+# use \n make new line
+# use {player} your name
+# use {ping} your ping
+# use {online} get count player online
+# use {rank} get your rank
+# use {money} get Your money
+# use {date} time is WIB Jakarta Indonesian
+### TAG DEFAULT DONE ###
+
+Profile:
+  SimpleForm: 
+    Title: "MyProfile"
+    Content: "§fName: §6{player}\n§fRank: §6{rank}\n§fMoney: §6{money}\n§fPing: §6{ping}\n§fOnline: §6{online}\n§f(§7{date}§f)"
+  Button:
+    Name: "§e[EXIT]\n§7Click To Visit"
+    Image: "textures/ui/cancel"
+    Message: "§aSuccesfuly Done"
